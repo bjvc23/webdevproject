@@ -1,0 +1,87 @@
+header{
+    text-align: center;
+    background: lightpink;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555555;
+    background-color: lightpink;
+}
+table{
+    width: 100%;
+    font-size: x-large;
+    /* text-align: center; */
+}
+ol{
+    line-height: 40px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: large;
+    font-style: bold;
+}
+ul{
+    line-height: 30px;
+    text-align: left;
+    font-size: medium;
+    color: lightgrey;
+}
+.homebg{
+    background-color:rgb(40, 43, 45)
+}
+.contentbg{
+    background-color: rgb(80, 80, 80);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.centertext{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    outline: white;
+    padding: 50px;
+}
+.typewrite{
+    font-family: 'Courier New', Courier, monospace;
+}
+.steph{
+    color: lightblue;
+}
+.taylor{
+    color: lightpink;
+}
+.quote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightgrey;
+    font-style: italic;
+    font-size: small;
+}
+colgroup{
+    width: 100%;
+    border-right: 1px solid #ddd;
+}
+.comparetable{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ddd;
+    font-size: medium;
+}
+#customtable tbody tr{
+    height: 50px;
+}
+.tableaucontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.bottom-center {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px; /* Adjust padding as needed */
+}
+a:link{
+    color: white
+}
+a:visited{
+    color: white
+}
